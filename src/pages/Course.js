@@ -76,9 +76,9 @@ function Course() {
                     <div className={styles.pricingDiv}>
                         <div className={styles.price}>
                             <span className={styles.discountedPrice}>
-                                ₹ {987.32}
+                                ₹ {4999}
                             </span>
-                            <span className={styles.actualPrice}>₹ {1 + ',' + 987.55}</span>
+                            <span className={styles.actualPrice}>₹ {10+","+202.05}</span>
                             <span className={styles.discountAmnt}>{49}% OFF</span>
                         </div>
                         <button className={styles.buyNow}>Buy Now</button>
