@@ -80,7 +80,8 @@
     }
     .loginBox{
         border-radius: 0px;
-        padding: 50px 25px;
+        padding: 150px 25px;
+        background-color: rgb(255,255,255,0.5);
     }
 }
 @media screen and (max-width: 475px) {

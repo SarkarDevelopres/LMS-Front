@@ -7,6 +7,7 @@ function Student() {
     const name = "Sagnik Sarkar";
     const phone = "9715863498";
     const email = "sarkar123@gmail.com";
+    const password = "123";
     const showNav = ()=>{
         var nav = document.getElementById('studentNav');
         var menu = document.getElementById('stdMenu');
@@ -49,6 +50,13 @@ function Student() {
                             <p>Email</p>
                             <div className={styles.input}>
                                 <input value={email} type='text' />
+                                <BiSolidPencil />
+                            </div>
+                        </div>
+                        <div className={styles.detailsFieldsDiv}>
+                            <p>Password</p>
+                            <div className={styles.input}>
+                                <input value={password} type='text' />
                                 <BiSolidPencil />
                             </div>
                         </div>
